@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Lt';
+    src: url('HelveticaNeueLTStd-Lt.eot?') format('eot'), 
+         url('HelveticaNeueLTStd-Lt.otf')  format('opentype'),
+         url('HelveticaNeueLTStd-Lt.woff') format('woff'), 
+         url('HelveticaNeueLTStd-Lt.ttf')  format('truetype'),
+         url('HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #999999;
+    font: 15pt HelveticaNeueLTStd-Lt;
+}
+.wrapper {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 219px;
+    margin: 0 auto;
+    width: 580px;
+}
+.inner {
+    margin: 0 auto;
+    width: 520px;
+}
+h1 {
+    background: url("../images/divider.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    height: 55px;
+    margin: 0 0 25px;
+    padding: 10px 0;
+}
+.color .item {
+    background: url("../images/color.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 35px;
+    margin: 0 9.6px 9.6px 0;
+    width: 74px;
+}
+.color .item:nth-child(6n) {
+    margin: 0 0 10px;
+}
+.item.color-2 {
+    background-position: -89px top;
+}
+.item.color-3 {
+    background-position: -178px top;
+}
+.item.color-4 {
+    background-position: -267px top;
+}
+.item.color-5 {
+    background-position: -357px top;
+}
+.item.color-6 {
+    background-position: -446px top;
+}
+.item.color-7 {
+    background-position: left bottom;
+}
+.item.color-8 {
+    background-position: -89px bottom;
+}
+.item.color-9 {
+    background-position: -178px bottom;
+}
+.item.color-10 {
+    background-position: -267px bottom;
+}
+.item.color-11 {
+    background-position: -357px bottom;
+}
+.item.color-12 {
+    background-position: right bottom;
+}
