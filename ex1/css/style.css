@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Lt';
+    src: url('HelveticaNeueLTStd-Lt.eot?') format('eot'), 
+         url('HelveticaNeueLTStd-Lt.otf')  format('opentype'),
+         url('HelveticaNeueLTStd-Lt.woff') format('woff'), 
+         url('HelveticaNeueLTStd-Lt.ttf')  format('truetype'),
+         url('HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: none repeat scroll 0 0 #AAAAAA;
+    font: 15pt HelveticaNeueLTStd-Lt;
+}
+.wrapper {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 816px;
+    margin: 0 auto;
+    width: 580px;
+}
+.inner {
+    height: 421px;
+    margin: 0 auto;
+    width: 519px;
+}
+.header {
+    margin: 0 0 20px;
+    padding: 40px 0 0;
+    position: relative;
+}
+.logo {
+    display: inline-block;
+    height: 90px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 190px;
+}
+.slider {
+    margin: 5px 0;
+}
+.control {
+    text-align: center;
+}
+.bullet {
+    background: url("../images/bullet.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    text-indent: -9999px;
+    width: 16px;
+}
+.bullet.active {
+    background-position: right top;
+}
+.info {
+    background: url("../images/divider.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 106px;
+    margin: 10px 0 15px;
+    position: relative;
+}
+.info .pharse {
+    display: inline-block;
+    margin: 25px auto;
+}
+.info .pharse.price {
+    color: #5C5761;
+    float: right;
+    font-weight: normal;
+}
+.info .pharse.name {
+    color: #5C5761;
+}
+.btn {
+    background: url("../images/btn.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 58px;
+    vertical-align: middle;
+}
+.btn.post {
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: normal;
+    width: 229px;
+}
+.btn.post.addcart {
+    background-position: right top;
+}
+.btn.divider {
+    background-position: center top;
+    width: 49px;
+}
