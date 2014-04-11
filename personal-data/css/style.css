@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: "HelveticaNeueLTStd-Lt";
+    src: url("HelveticaNeueLTStd-Lt.eot?") format("eot"), url("HelveticaNeueLTStd-Lt.otf") format("opentype"), url("HelveticaNeueLTStd-Lt.woff") format("woff"), url("HelveticaNeueLTStd-Lt.ttf") format("truetype"), url("HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt") format("svg");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #999999;
+    font: 15pt HelveticaNeueLTStd-Lt;
+}
+.wrapper {
+    background: url("../images/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 956px;
+    margin: 0 auto;
+    width: 641px;
+}
+.wrapper .inner {
+    margin: 0 auto;
+    padding: 30px 0 0;
+    width: 581px;
+}
+.inner img {
+    margin: 0 0 20px;
+}
+form {
+    background: url("../images/divider.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 416px;
+    margin: 30px 0 0;
+    padding: 35px 0 0;
+}
+.input {
+    background: url("../images/input.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 56px;
+    vertical-align: middle;
+    width: 352px;
+}
+.input.select {
+    background-position: left bottom;
+}
+.status {
+    background: url("../images/status.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 44px;
+    vertical-align: middle;
+    width: 44px;
+}
+.status.success {
+    background-position: left bottom;
+}
+form label {
+    display: block;
+    margin: 0 0 40px;
+}
+form label .span3 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 173.5px;
+}
+form label input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    display: block;
+    font: 15pt HelveticaNeueLTStd-Lt;
+    height: 56px;
+    margin: 0 auto;
+    width: 95%;
+}
+.btn {
+    background: url("../images/button.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font: 15pt HelveticaNeueLTStd-Lt;
+    height: 58px;
+    width: 230px;
+}
+.btn.apply {
+    background-position: right top;
+    float: right;
+}
