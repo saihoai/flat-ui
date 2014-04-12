@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Lt';
+    src: url('HelveticaNeueLTStd-Lt.eot?') format('eot'), 
+         url('HelveticaNeueLTStd-Lt.otf')  format('opentype'),
+         url('HelveticaNeueLTStd-Lt.woff') format('woff'), 
+         url('HelveticaNeueLTStd-Lt.ttf')  format('truetype'),
+         url('HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+}
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+body{background:none repeat scroll 0 0 #999999;color:#FFFFFF;font:15pt HelveticaNeueLTStd-Lt;}
+.wrapper{background:url( "../images/bg.gif ") repeat scroll 0 0 rgba(0,0,0,0);margin:0 auto;padding:25px 0;width:641px;}
+.base{background:url( "../images/base.gif ") repeat scroll 0 0 rgba(0,0,0,0);height:396px;margin:0 auto;position:relative;width:580px;}
+
+.base .bullet{position:absolute;text-align:center;top:90px;width:100%;}
+	.bullet .item{overflow: hidden;background:url( "../images/bullet.gif ") repeat scroll 0 0 rgba(0,0,0,0);display:inline-block;height:16px;line-height:16px;text-align:center;text-indent:-999px;width:16px;}
+	.bullet .item.active{background-position:right top;}
+
+.base .mark{background:url( "../images/mark.gif ") repeat scroll 0 0 rgba(0,0,0,0);bottom:32px;height:225px;position:absolute;width:100%;}
+.mark .inner{margin:3% auto 0;width:85%;}
+.mark .info{background:url( "../images/hr.gif ") no-repeat scroll left bottom rgba(0,0,0,0);height:75px;margin:0 0 7%;padding:0 0 1%;}
+	.info h1{display:inline-block;float:right;}
+	.info .text{display:inline-block;}
+		.text .made{color:#46CF98;}
+
+.action .btn{background:url( "../images/btn.gif ") repeat scroll 0 0 rgba(0,0,0,0);border:0 none;color:#FFFFFF;cursor:pointer;font:16pt HelveticaNeueLTStd-Lt;height:58px;vertical-align:middle;width:230px;}
+.action .vt{background:url( "../images/vt.gif ") no-repeat scroll center center rgba(0,0,0,0);display:inline-block;height:58px;vertical-align:middle;width:21px;}
+.action .btn.cart{background-position:right top;}
