@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Lt';
+    src: url('HelveticaNeueLTStd-Lt.eot?') format('eot'), 
+         url('HelveticaNeueLTStd-Lt.otf')  format('opentype'),
+         url('HelveticaNeueLTStd-Lt.woff') format('woff'), 
+         url('HelveticaNeueLTStd-Lt.ttf')  format('truetype'),
+         url('HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #999999;
+    font: 15pt HelveticaNeueLTStd-Lt;
+}
+.wrapper {
+    background: #fff;
+    height: 578px;
+    margin: 0 auto;
+    width: 480px;
+}
+.base {
+    margin: 0 auto;
+    text-align: center;
+    width: 420px;
+}
+.base p {
+    line-height: 44px;
+    margin: 20px 0 0;
+}
+.avatar {
+    margin: 30px 0 0;
+}
+.i {
+    background: url("../images/input.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.i.text {
+    height: 56px;
+    line-height: 56px;
+    margin: 20px 0 35px;
+    width: 420px;
+}
+.i.text [type="text"] {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    font: 15pt HelveticaNeueLTStd-Lt;
+    width: 90%;
+}
+.i.checkbox {
+    background-position: left 152px;
+    cursor: pointer;
+    height: 44px;
+    width: 70%;
+}
+.i.submit {
+    background-position: center bottom;
+    border: 0 none;
+    cursor: pointer;
+    font: 15pt HelveticaNeueLTStd-Lt;
+    height: 58px;
+    margin: 30px 0 0;
+    width: 230px;
+    color: #fff;
+}
